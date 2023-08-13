@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0.
 
+<img width="315" alt="image" src="https://github.com/ashishvermaportfolio/cupandkitaab/assets/69315825/4c331c39-35ef-40fe-aa96-011f5953a4bc">
+
+
 This is the finalised template of the project and any further development done afterwards is the client's proprietory. To see the complete version, visit www.cupandkitaab.in.
 
 ## Development server
