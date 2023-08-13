@@ -1,0 +1,200 @@
+@import'../../../assets/css/variable.scss';
+.overlay-bck {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  // background: #4230042e;
+}
+.story-top{
+    padding-top: 90px;
+    &.bspce{
+        padding-bottom: 110px;
+    }
+    .sbm{
+        position: relative;
+        .cursive-bar{
+            position: absolute;
+            top: -40px;
+            left: 30px;
+            z-index: 1;
+            @media(max-width:1024px){
+              top: -30px;
+            }
+        }
+        .story-banner{
+            figure{
+                height: 333px;
+                overflow: hidden;
+                border-radius: 4px;
+                background-color: rgba(0,0,0,0.27);
+                @media(max-width:1024px){
+                  height: 250px;
+                }
+                img{
+                    height: 100%;
+                    object-fit: cover;
+                    transform-origin: 50% 65%;
+                    transition: transform 5s, filter 3s ease-in-out;
+                    filter: brightness(150%);
+                    &:hover{
+
+                        filter: brightness(100%);
+                        transform: scale(3);
+                    }
+                }
+            }
+        }
+    }
+    .begin {
+        display: flex;
+        gap: 40px;
+        @media(max-width:1024px){
+          padding-bottom: 70px;
+        }
+        @media(max-width:768px){
+          flex-direction: column;
+        }
+        .begin-left {
+            width: 62%;
+            padding-top: 30px;
+            @media(max-width:1024px){
+              width: 100%;
+            }
+            .cursive-bar{
+                h2{
+                    color: $theme-clr;
+                    font-family: Brandon_reg;
+                    font-weight: 700;
+                    padding-bottom: 15px;
+                }
+                p{
+                    color: rgba(0,0,0,0.59);
+                    font-family: Brandon_reg;
+                    font-size: 17px;
+                }
+            }
+        }
+        .begin-right{
+            position: relative;
+            top: -130px;
+            @media(max-width:1024px){
+              top: -100px;
+            }
+            @media(max-width:768px){
+              top:0;
+            }
+          figure{
+            height: 441px;
+            width: 331px;
+            border-radius: 4px;
+            background-color: #D8D8D8;
+            box-shadow: 0 20px 54px 0 rgba(0,0,0,0.35);
+            overflow: hidden;
+            @media(max-width:1024px){
+              height: 360px;
+              width: 310px;
+            }
+            @media(max-width:768px){
+              height: auto;
+              width: 100%;
+            }
+            img{
+                height:100%;
+                object-fit: cover;
+                // transition: transform .5s ease-in-out;
+                // &:hover{
+                //     transform: scale(2) rotate(
+                //         25deg);
+                // }
+            }
+
+          }
+        }
+    }
+}
+.boss-lady {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 70px;
+    &.reversec{
+      flex-direction: row-reverse;
+      @media(max-width:768px){
+        flex-direction: column
+      }
+    }
+    @media(max-width:768px){
+      flex-direction: column;
+      padding-bottom: 50px;
+      gap: 30px;
+    }
+    .bl-left{
+        width: 59%;
+        @media(max-width:1024px){
+          width: 52%;
+        }
+        @media(max-width:768px){
+          width: 100%;
+        }
+        figure{
+           
+    height: 380px;
+
+            border-radius: 4px;
+            overflow: hidden;
+            @media(max-width:768px){
+              height: 250px;
+            }
+            img{
+                height:100%;
+                object-fit: cover;
+                &.contain{
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    .bl-right{
+        width: 38%;
+        @media(max-width:1024px){
+          width: 45%;
+        }
+        @media(max-width:768px){
+          width: 100%;
+        }
+        .cursive-bar{
+            h2{
+                color: $theme-clr;
+                font-family: Brandon_reg;
+                font-weight: 700;
+                padding-bottom: 15px;
+                @media(max-width:768px){
+                  padding-bottom: 10px;
+                  font-size: 25px;
+                }
+            }
+            p{
+                color: rgba(0,0,0,0.59);
+                font-family: Brandon_reg;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+// .boss-lady .bl-left figure.book{
+//     overflow: hidden;
+//     &:hover{
+//         filter: drop-shadow(0 0 10px rgba(0,0,0,.3));
+//     }
+//     img{
+//         transition: transform .5s ease-in-out;
+// transform: scale(1.1);
+// transform-origin: 100% 0;
+// &:hover{
+// transform: scale(1.5) translateX(30%);
+// }
+//     }
+// }
+
+

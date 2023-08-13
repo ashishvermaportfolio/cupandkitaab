@@ -1,0 +1,54 @@
+<div class="wrap">
+    <app-header></app-header>
+    <div class="gp topmargin">
+        <div class="conta_iner">
+            <div class="gpm">
+                <div class="cursive-bar">
+                    <h1>Image Gallery </h1>
+                </div>
+                <p>We value the experiences that are remembered through lifetime.</p>
+            </div>
+            <div class="galery-tab">
+                <!-- <ul class="nav nav-tabs">
+                    <li><a data-toggle="tab" href="#tab1" class="active">All</a></li>
+                    <li><a data-toggle="tab" href="#tab2">Reading</a></li>
+                    <li><a data-toggle="tab" href="#tab3">Eating</a></li>
+                    <li><a data-toggle="tab" href="#tab4">Celebs</a></li>
+                    <li><a data-toggle="tab" href="#tab5">Open Mic</a></li>
+                    <li><a data-toggle="tab" href="#tab6">Videos</a></li>
+                </ul> -->
+                <div class="tab-content">
+                    <div id="tab1" class="tab-pane in active">
+                        <div class="gshowcase">
+                            <ul>
+                                <li *ngFor="let item of images; let i as index">
+                                    <figure data-toggle="modal" data-target="#openModal" (click)="clickedImage=item">
+                                        <img [src]="item">
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+
+
+<!-- Modal -->
+<div id="openModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div> -->
+            <figure>
+                <img [src]="clickedImage">
+            </figure>
+        </div>
+
+    </div>
+</div>

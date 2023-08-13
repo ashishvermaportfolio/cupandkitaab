@@ -1,0 +1,111 @@
+<div class="wrap">
+    <app-header></app-header>
+    <div class="topmargin">
+    <section class="event-main">
+        <div class="conta_iner">
+            <div class="ev-m">
+                <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+                    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                      <div class="nmh  hang-on-hover">
+                        <div class="swing ">
+                            <div class="swingi">
+                                <figure> <img src="{{ slide.img }}" alt="" width="100%"></figure>
+                                <p>{{slide.data}}</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </ngx-slick-carousel>
+            </div>
+        </div>
+    </section>
+    <section class="upcoming-event">
+        <div class="conta_iner">
+            <div class="uem">
+                <div class="cussive-bar">
+                    <h2>Upcoming Events</h2>
+                </div>
+                <div class="cm-sn">No upcoming events this month</div>
+                <!-- <ul>
+                    <li>
+                        <div class="upel">
+                            <div class="upeltl">
+                                <div class="upedate">
+                                    <h5>23 <span>Sep 2021</span></h5>
+                                </div>
+                                <div class="upect">
+                                    <h5>Book Launch</h5>
+                                    <h6>for book “Example”</h6>
+                                </div>
+                            </div>
+                            <div class="upeltr">
+                                <div class="upleft">
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.</p>
+                                </div>
+                                <div class="upright">
+                                    <figure>
+                                        <img
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjODLVZM3fze6nrZ1PtWaidPJcAEjOhyI17g&usqp=CAU">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="upel">
+                            <div class="upeltl">
+                                <div class="upedate">
+                                    <h5>23 <span>Sep 2021</span></h5>
+                                </div>
+                                <div class="upect">
+                                    <h5>Open Mic</h5>
+                                    <h6>hosted by abcd</h6>
+                                </div>
+                            </div>
+                            <div class="upeltr">
+                                <div class="upleft">
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.</p>
+                                </div>
+                                <div class="upright">
+                                    <figure>
+                                        <img
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjODLVZM3fze6nrZ1PtWaidPJcAEjOhyI17g&usqp=CAU">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="upel">
+                            <div class="upeltl">
+                                <div class="upedate">
+                                    <h5>23 <span>Sep 2021</span></h5>
+                                </div>
+                                <div class="upect">
+                                    <h5>Yoga Workshop</h5>
+                                    <h6>by “Disha Jain”</h6>
+                                </div>
+                            </div>
+                            <div class="upeltr">
+                                <div class="upleft">
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page when looking at its layout.</p>
+                                </div>
+                                <div class="upright">
+                                    <figure>
+                                        <img
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjODLVZM3fze6nrZ1PtWaidPJcAEjOhyI17g&usqp=CAU">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+    </section>
+    <app-footer></app-footer>
+</div>
+</div>

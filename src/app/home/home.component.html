@@ -1,0 +1,324 @@
+<div class="wrap">
+
+  <div class="">
+    <!-- banner start-->
+    <div class="banner">
+
+      <div class="banner-main">
+        <!-- header start -->
+        <header class="header">
+          <div class="conta_iner">
+            <nav class="navbar navbar-inverse">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <a class="navbar-brand">
+                  <figure>
+                    <img src="assets/icons/logo.svg" alt="Logo">
+                  </figure>
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a class="a-link" routerLink="/home" routerLinkActive="active-link">Home</a></li>
+                  <li><a class="a-link" routerLink="/event" routerLinkActive="active-link">Events</a></li>
+                  <li><a class="a-link" routerLink="/gallery" routerLinkActive="active-link">Gallery</a></li>
+                  <li><a class="a-link" routerLink="/story" routerLinkActive="active-link">Our Story</a></li>
+                  <li><a class="a-link" routerLink="/blog" routerLinkActive="active-link">Blog</a></li>
+                  <li><a class="a-link" routerLink="/special" routerLinkActive="active-link">Our Specials</a></li>
+                  <li><a class="a-link" routerLink="/books" routerLinkActive="active-link">Books</a></li>
+                </ul>
+
+              </div>
+            </nav>
+
+          </div>
+        </header>
+
+        <!-- header end -->
+
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig2">
+          <div ngxSlickItem *ngFor="let banner of banners" class="slide">
+            <div class="fml">
+              <figure> <img src="{{ banner.img }}" alt="" width="100%"></figure>
+              <div class="banner-content">
+                <h4>{{banner.header}}</h4>
+                <p>{{banner.para}}</p>
+              </div>
+            </div>
+          </div>
+        </ngx-slick-carousel>
+      </div>
+    </div>
+    <!-- banner end -->
+    <!-- about start -->
+    <section class="about">
+      <div class="conta_iner">
+        <div class="aboutmain">
+          <div class="aleft">
+            <h5>ABOUT US</h5>
+            <h2><span class="eat">EAT</span> <span class="coma">,</span> <span class="drink">DRINK</span><span
+                class="coma">,</span><span class="read"> READ</span><span class="coma">,</span><span class="read">
+                CHAT</span></h2>
+            <p>Cup and Kitaab is a neighborhood all day restaurant with a passion for tasty bites and quality sips. We
+              are
+              the perfect place to meet up with friends, have a quality time with family or simply just have a me time
+              with
+              a book and drink in hand.</p>
+            <button routerLink="/gallery">View Gallery</button>
+          </div>
+          <div class="aright">
+            <figure>
+              <img src="assets/images/home/about.jpg">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- promotion start -->
+    <section class="promotion">
+      <div class="conta_iner">
+        <div class="psec">
+          <div class="ptitle">
+            <h2>Proudly digitalised by </h2>
+            <figure>
+              <img src="assets/images/home/raisincode_logo.png">
+            </figure>
+          </div>
+          <p>We, the leading Web and App development company take pride in bringing the best in its kind restaurant “Cup
+            and kitaab” on digital platform. Visit our website for more info</p>
+          <a class="rcwebbtn" href="https://www.raisincode.com" target="_blank"><button>Visit our Website</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- promotion end -->
+    <!-- freshly start -->
+    <section class="fresly">
+      <div class="cursive-bar">
+        <h2>Freshly Curated</h2>
+      </div>
+      <div class="freslyslider">
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+          <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <div class="fm">
+              <div class="fml">
+                <figure> <img src="{{ slide.img }}" alt="" width="100%"></figure>
+
+              </div>
+              <div class="fmr">
+                <h4>{{slide.head}}</h4>
+                <!-- <p>{{slide.data}}</p> -->
+                <a routerLink="/special">{{slide.view}}</a>
+              </div>
+            </div>
+          </div>
+        </ngx-slick-carousel>
+      </div>
+    </section>
+    <!-- freshly end -->
+    <!-- menu start -->
+    <section class="menu">
+      <div class="conta_iner">
+        <div class="cursive-bar">
+          <h2>Menu</h2>
+        </div>
+        <div class="menutab">
+          <ul class="nav nav-tabs">
+            <li *ngFor="let item of menuTitles; let i=index" style="cursor: pointer;" (click)="getActiveMenuTitle(i)">
+              <a data-toggle="tab" [class]="activeMenuTitleIndex===i?'active':''">
+                <div class="menunav">
+                  <figure>
+                    <img src="assets/icons/sandwich.svg">
+                  </figure>
+                  <h5>{{item}}</h5>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane active">
+              <div class="menu-content">
+                <ul>
+                  <li *ngFor="let item of selectedMenu; let i=index" [class]="(i>7 && !viewMore)?'no-data':''">
+                    <div [class]="(i>7 && !viewMore)?'no-data':'mcdata'" *ngIf="i<8 || viewMore">
+                      <div class="cmd-left">
+                        <figure>
+                          <img src="assets/images/special/dish1.png">
+                        </figure>
+                      </div>
+                      <div class="cmd-right">
+                        <div class="cmdr-top">
+                          <h5>{{item.name}}</h5>
+                        </div>
+                        <div class="cmdr-top cmdr-top-not">
+                          <h6>
+                            <img style="margin-right: 15px;vertical-align: middle;width: 15px;"
+                              src="assets/images/veg.png" *ngIf="item && item.price"/>
+                            <span *ngIf="item && item.price">{{(item&&item.price)?'₹ '+item.price+'/-':'-'}}</span>
+                          </h6>
+                          <h6 *ngIf="item && item.nonvegPrice">
+                            <img style="margin-right: 15px;vertical-align: top;width: 20px;"
+                              src="https://img.icons8.com/color/48/000000/non-vegetarian-food-symbol.png" />
+                            <span>{{(item&&item.nonvegPrice)?'₹ '+item.nonvegPrice+'/-':'-'}}</span>
+                          </h6>
+                        </div>
+                        <div class="cmdr-bottom">
+                          <p>{{item.description || ''}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div [class]="viewMore?'viewall andMore':'viewall'" *ngIf="selectedMenu?.length>7">
+                  <h4 (click)="viewMore=!viewMore">{{viewMore?'View Less':'View All'}}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu end -->
+
+    <!-- instagram start -->
+    <section class="instagram">
+      <div class="conta_iner">
+        <div class="insta-head">
+          <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank"><h3>+ 2.5K FOLLOWERS</h3></a>
+          <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+            <figure>
+              <img src="assets/icons/instagram.svg">
+            </figure>
+            <h5>@cupandkitaab</h5>
+          </a>
+        </div>
+      </div>
+      <div class="insta-gallery">
+        <ul>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/insta1.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/1.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/2.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/3.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/4.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/5.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/6.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/7.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/8.png">
+              </figure>
+            </a>
+          </li>
+          <li class="hover15">
+            <a href="https://www.instagram.com/cupandkitaab/?hl=en" target="_blank">
+              <figure>
+                <img src="assets/images/home/9.png">
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+    <!-- instagram end -->
+
+
+    <!-- testimonials start -->
+
+    <!-- <section class="testimonials">
+      <div class="cursive-bar">
+        <h2>They all Love us </h2>
+      </div>
+      <div class="tmain">
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig1">
+          <div ngxSlickItem *ngFor="let testimonial of testimonials" class="testimonial">
+            <div class="fm">
+
+              <div class="fmr">
+                <p>{{testimonial.data}}</p>
+                <h4>{{testimonial.name}}</h4>
+                <h6>{{testimonial.designation}}</h6>
+              </div>
+              <div class="fml">
+                <figure class="">
+                  <img src="{{ testimonial.img }}" alt="" width="100%">
+                </figure>
+
+              </div>
+            </div>
+          </div>
+        </ngx-slick-carousel>
+      </div>
+    </section> -->
+
+    <!-- testimonials end -->
+
+
+    <!-- location start -->
+    <section class="location">
+      <div class="conta_iner">
+        <div class="lfig">
+          <figure>
+            <img src="assets/icons/map.svg">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- location end -->
+  </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3431.136835342165!2d76.7386596155889!3d30.68642588165333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390fed72ca04f3a7%3A0x252ff7062dcb3b87!2sCup%20%26%20Kitaab%2C%20Phase%2010%20Inner%20Rd%2C%20inside%20Silvi%20Park%2C%20Phase%2010%2C%20Sector%2064%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20160062!3m2!1d30.6864259!2d76.7408483!5e0!3m2!1sen!2sin!4v1640047218564!5m2!1sen!2sin" width="2150" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  <app-footer></app-footer>
+</div>

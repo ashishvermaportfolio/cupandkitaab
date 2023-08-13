@@ -1,0 +1,1048 @@
+{
+    "menu": [
+        {
+            "the_breakfast_club": [
+                {
+                    "name": "Maggi Bus Adda Style",
+                    "img": "",
+                    "price": "99",
+                    "nonvegPrice": "119",
+                    "description": ""
+                },
+                {
+                    "name": "Maska Bun Omelette",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "179",
+                    "description": "Croissant filled with thela style Omelette served with potato wedges."
+                },
+                {
+                    "name": "Egg's our way",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "199",
+                    "description": "Egg ith melted cheese, inside the croissant with slices of salami served with french fries."
+                },
+                {
+                    "name": "Hot & Crispy Cheese Toast",
+                    "img": "",
+                    "price": "199",
+                    "nonvegPrice": "229",
+                    "description": "Multigrain toast loaded with vegetable / chicken and cheese served with house dressing."
+                },
+                {
+                    "name": "Garkic Herbed Grill Veggies",
+                    "img": "",
+                    "price": "249",
+                    "nonvegPrice": "",
+                    "description": "Exotic english stir vegetables with chef special herbs and spices."
+                },
+                {
+                    "name": "Mushroom with Parsey, Garlic And Chillies",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "",
+                    "description": "Fresh button mushrooms sauteed with garlic, fresh chillies and chef special herbs with a twist."
+                },
+                {
+                    "name": "Just Hummus With Pita",
+                    "img": "",
+                    "price": "179",
+                    "nonvegPrice": "",
+                    "description": "Lebanese hummus with fres black olives and pita bread."
+                },
+                {
+                    "name": "Panini",
+                    "img": "",
+                    "price": "199",
+                    "nonvegPrice": "229",
+                    "description": ""
+                },
+                {
+                    "name": "Poha",
+                    "img": "",
+                    "price": "160",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Bruschetta",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "269",
+                    "description": "Garden Fresh Tomatoes Or Grilled Mushrooms With Cheese Loaded On Hot Garlic Toast With Touch Of Pesto And Parmesan and cheddar Cheese"
+                },
+                {
+                    "name": "English Breakfast Platter",
+                    "img": "",
+                    "price": "479",
+                    "nonvegPrice": "",
+                    "description": "A Healthy Platter Of Toast, Baked Beans, Hash Brown, Marmalade, Grilled Veggies, Butter, With Special Herbs With Chef's Twist And Choice Of Tea/Coffee"
+                },
+                {
+                    "name": "English Breakfast Platter",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "499",
+                    "description": "A Healthy Platter Of Toast, Baked Beans, Sausages, Bullseye Egg, Marmalade, Grilled Tomato, Butter, With Special Herbs With Chef's Twist And Choice Of Tea/Coffee"
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "soups_&_stories": [
+                {
+                    "name": "Tomato Basil soup",
+                    "img": "",
+                    "price": "129",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Murg Kaali Mirch Rassa",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "169",
+                    "description": ""
+                },
+                {
+                    "name": "Hot & Sour/ Monchow/ Lemon Coriander/Sweet Corn ",
+                    "img": "",
+                    "price": "129",
+                    "nonvegPrice": "149",
+                    "description": ""
+                },
+                {
+                    "name": "Clear Soup",
+                    "img": "",
+                    "price": "149",
+                    "nonvegPrice": "169",
+                    "description": ""
+                },
+                {
+                    "name": "Cream of Mushrooms",
+                    "img": "",
+                    "price": "179",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Spinach Broccoli Soup",
+                    "img": "",
+                    "price": "179",
+                    "nonvegPrice": "199",
+                    "description": ""
+                },
+                {
+                    "name": "Bhutanese Thupka",
+                    "img": "",
+                    "price": "179",
+                    "nonvegPrice": "199",
+                    "description": ""
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "mistress_of_spice": [
+                {
+                    "name": "Dal Makhni",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "",
+                    "description": "Overnight cooked black lentil with butter and rich cream."
+                },
+                {
+                    "name": "Dal Butter Fry",
+                    "img": "",
+                    "price": "299",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Nimbu Walli Dal",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "",
+                    "description": "Yellow lentil tampered with cumin and a tinch of lemon."
+                },
+                {
+                    "name": "Chana Masala",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Dal Tadka",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "",
+                    "description": "Yellow-orange lentil tempered with cumin & ghee."
+                },
+                {
+                    "name": "Gobhi Keema Matar",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "",
+                    "description": "Minced cauliflower with fresh peas."
+                },
+                {
+                    "name": "Dhingri Dholma",
+                    "img": "",
+                    "price": "299",
+                    "nonvegPrice": "",
+                    "description": "Minced paneer with mushrooms."
+                },
+                {
+                    "name": "Khumb-Do-Pyaza",
+                    "img": "",
+                    "price": "299",
+                    "nonvegPrice": "",
+                    "description": "Fresh button mushroom cooked in speacial onion and gravy masala."
+                },
+                {
+                    "name": "Malai Kofta",
+                    "img": "",
+                    "price": "329",
+                    "nonvegPrice": "",
+                    "description": "Freshly made koftas with potato and paneer in white cashew gravy."
+                },
+                {
+                    "name": "Paneer Butter Masala",
+                    "img": "",
+                    "price": "329",
+                    "nonvegPrice": "",
+                    "description": "Paneer cooked in rich makhni sauce and mild Indian spices."
+                },
+                {
+                    "name": "Paneer Teen Mirch",
+                    "img": "",
+                    "price": "329",
+                    "nonvegPrice": "",
+                    "description": "Paneer cooked with bell peppers, green chilli and crushed pepper."
+                },
+                {
+                    "name": "Adhraki Dhania Paneer",
+                    "img": "",
+                    "price": "329",
+                    "nonvegPrice": "",
+                    "description": "Diced Paneer, cooked in rich yellow gravy flavoured with coriander, ginger and mild Indian spices."
+                },
+                {
+                    "name": "Palak Murg",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "379",
+                    "description": "Spicy chicken cooked in rich butter gravy and Palak."
+                },
+                {
+                    "name": "Butter Chicken",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "379",
+                    "description": "Tandoor roasted chicken cooked along with Indian spices in rich creamy gravy with a tinch ofCashew sweetness."
+                },
+                {
+                    "name": "Junglee Murg",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "379",
+                    "description": ""
+                },
+                {
+                    "name": "Murg Rara (with Bones/Boneless)",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "379/- & 429",
+                    "description": ""
+                },
+                {
+                    "name": "Dum Alloo",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Navrattan Korma",
+                    "img": "",
+                    "price": "399",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Paalak Kofta",
+                    "img": "",
+                    "price": "349",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Lahsooni Kofta",
+                    "img": "",
+                    "price": "329",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Paalak Paneer",
+                    "img": "",
+                    "price": "349",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Thai Curry",
+                    "img": "",
+                    "price": "349",
+                    "nonvegPrice": "399",
+                    "description": "Oriental style curry cooked in coconut milk with flavour of your choice - Red/Green along with rice."
+                },
+                {
+                    "name": "Sabz Hyderabadi",
+                    "img": "",
+                    "price": "349",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Bowl Of Rice",
+                    "img": "",
+                    "price": "149",
+                    "nonvegPrice": "",
+                    "description": "Plain / Jeera"
+                },
+                {
+                    "name": "Achaari Pulao",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Handi Veg Biryani",
+                    "img": "",
+                    "price": "299",
+                    "nonvegPrice": "",
+                    "description": "Basmati rice and vegetables cooked along with rice and Indian spices served with Bhurani raita and gravy."
+                },
+                {
+                    "name": "Nawabi Murg Biryani (Bone/Boneless)",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "399/- & 449",
+                    "description": "Basmati rice and chicken cooked dum style along with rice and Indian spices served with Bhurani raita and gravy."
+                },
+                {
+                    "name": "Egg Biryani",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "359/-",
+                    "description": ""
+                },
+                {
+                    "name": "Khichhda",
+                    "img": "",
+                    "price": "299",
+                    "nonvegPrice": "",
+                    "description": ""
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "tandoor_se": [
+                {
+                    "name": "Stuffed Mushroom Tandoori",
+                    "img": "",
+                    "price": "319",
+                    "nonvegPrice": "",
+                    "description": "Marinated in the flavour of your choice and smoked in tandoor and served with chef's special dip."
+                },
+                {
+                    "name": "Nazakat",
+                    "img": "",
+                    "price": "329",
+                    "nonvegPrice": "",
+                    "description": "Potatoes stuffed cottage chinese and crushed cashews cooked in tandoor and served with chef's special dip."
+                },
+                {
+                    "name": "Paneer Tikka (Peri-Peri/Pesto/Achaari)",
+                    "img": "",
+                    "price": "339",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Murg Bhatti Wala",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "399",
+                    "description": "Chicken marinated in tandoori masala, chargrilled in tandoor served special chutney and pickled onion."
+                },
+                {
+                    "name": "Chicken Tikka (Malai/Achaari/Peppery Garlic)",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "379",
+                    "description": "Chicken marsels marinated in your choice of flavour and chargrilled to perfection served with chutney and pickled onion."
+                },
+                {
+                    "name": "Fish Tikka",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "399",
+                    "description": "Fish chunks marinated in hung curd, mild Indian spices chargrilled in tandoor and served with chutney and pickled onion."
+                },
+                {
+                    "name": "Chicken Changezi",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "399",
+                    "description": ""
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "rock_'N'_roll": [
+                {
+                    "name": "Kathi Roll (Paneer/Chicken)",
+                    "img": "",
+                    "price": "179",
+                    "nonvegPrice": "199",
+                    "description": "Roomali roti stuffed with your choice of filling and served with mint chutney and pickled onion."
+                },
+                {
+                    "name": "Mexican Wrap",
+                    "img": "",
+                    "price": "169",
+                    "nonvegPrice": "199",
+                    "description": "Tortilla wrap stuffed with crispy fried paneer/chicken and grilled to perfection. Served with salsa."
+                },
+                {
+                    "name": "Juicy Veg Burger",
+                    "img": "",
+                    "price": "199",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Spinach Corn Burger",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Grilled Paneer Burger",
+                    "img": "",
+                    "price": "249",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Desi Tikka Sandwich (Paneer/Chicken)",
+                    "img": "",
+                    "price": "269",
+                    "nonvegPrice": "299",
+                    "description": "Tikka style cooked and served with fries."
+                },
+                {
+                    "name": "Silvi Club Sandwich",
+                    "img": "",
+                    "price": "289",
+                    "nonvegPrice": "319",
+                    "description": "Classic club triple layered brown bread sandwich"
+                },
+                {
+                    "name": "Carolina Chicken Burger",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "299",
+                    "description": ""
+                },
+                {
+                    "name": "Smoked Chicken Croissant",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "299",
+                    "description": "Smoked grilled chicken in house dressing served with potato wedges."
+                },
+                {
+                    "name": "Hunter Chicken Burger",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "369",
+                    "description": ""
+                },
+                {
+                    "name": "Crispy Chicken Burger",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "369",
+                    "description": ""
+                },
+                {
+                    "name": "Ice Burger",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "369",
+                    "description": ""
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "blessed_are_the_cheese_makers": [
+                {
+                    "name": "Pizza Margherita",
+                    "img": "",
+                    "price": "319",
+                    "nonvegPrice": "",
+                    "description": "All-time favourite 3 cheese pizza topped well basil"
+                },
+                {
+                    "name": "Pizza Giardiniera",
+                    "img": "",
+                    "price": "369",
+                    "nonvegPrice": "",
+                    "description": "Loaded with freshly cut vegetables and topped with Jalapenos and olives and cheese."
+                },
+                {
+                    "name": "Paneer Lababdaar",
+                    "img": "",
+                    "price": "389",
+                    "nonvegPrice": "",
+                    "description": "Topped with our special lababdaar paneer chunks, ring onions, and green chillies."
+                },
+                {
+                    "name": "Pizza Pinechik",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "429",
+                    "description": "Topped with chicken tikka, grilled pineapple, Jalapenos and Mozzarella."
+                },
+                {
+                    "name": "Chicken Lover Pizza",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "439",
+                    "description": "Topped with tandoori chicken shreds, pickles, chilies, onion and Mozzarella."
+                },
+                {
+                    "name": "Peri-Peri Chicken Pizza",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "439",
+                    "description": "Topped with peri-peri chicken, herb onion, Jalapenos and Mozzarella."
+                },
+                {
+                    "name": "Loaded Meat Pizza",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "499",
+                    "description": "Topped with chicken sausages, salami, smoked herb grilled chicken, BBQ chicken, bell peppers, Jalapenos and Mozzarella."
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "we_are_in_q": [
+                {
+                    "name": "Tandoori Roti",
+                    "img": "",
+                    "price": "29",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Butter Roti",
+                    "img": "",
+                    "price": "39",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Choice Of Prantha",
+                    "img": "",
+                    "price": "49",
+                    "nonvegPrice": "",
+                    "description": "Green Chilli/ Red Chilli/ Mint/ Methi"
+                },
+                {
+                    "name": "Roomali Roti",
+                    "img": "",
+                    "price": "49",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Choice Of Naan",
+                    "img": "",
+                    "price": "59",
+                    "nonvegPrice": "",
+                    "description": "Plain/ Butter/ Garlic/ Seasoned Italian"
+                },
+                {
+                    "name": "Stuffed Prantha",
+                    "img": "",
+                    "price": "129",
+                    "nonvegPrice": "199",
+                    "description": "Potato/ Onion/ Cauliflower/ Mix/ Chicken"
+                },
+                {
+                    "name": "Paneer Prantha",
+                    "img": "",
+                    "price": "179",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Bowl Of Raita (Small/ Large)",
+                    "img": "",
+                    "price": "49/- & 139",
+                    "nonvegPrice": "",
+                    "description": "Kachumbar/ Pineapple/ Anar/ Bhoorani/ Boondi"
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "shake_it_till_you_make_it": [
+                {
+                    "name": "Ice Latte",
+                    "img": "",
+                    "price": "159",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Ice Mocha",
+                    "img": "",
+                    "price": "159",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Cafe Frappe",
+                    "img": "",
+                    "price": "199",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Caramel Banana Shake",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Fudge Brownie Blend",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Mango Mint Shake",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Fruit Ninja",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Kitkat Shake",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Oreo Mint",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Irish Cream",
+                    "img": "",
+                    "price": "199",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "American Ice",
+                    "img": "",
+                    "price": "169",
+                    "nonvegPrice": "",
+                    "description": ""
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "who_moved_my_cheese?": [
+                {
+                    "name": "Pasta Aglio-e-Olio",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "299",
+                    "description": "Spaghetti Tossed In Extra Virgin Olive Oil, Garlic, Cherry Tomatos, Olives, Herbs and Parmesan Cheese, Served With Garlic Bread "
+                },
+                {
+                    "name": "Pasta Alla-Rosso",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "299",
+                    "description": "Penne With Creamy Pink Sauce And Parmesan Cheese, Served With Garlic Bread"
+                },
+                {
+                    "name": "Pasta Alla-Alferado",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "299",
+                    "description": "Smooth And Rich White Sauce Prepared With Mushrooms, Cheese, Cream and butter. Served With Garlic Bread"
+                },
+                {
+                    "name": "Pasta Alla-Arrabiata",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "299",
+                    "description": "Penne With Spicy Red Sauce, Herbed Sauteed Veggies Or Chicken Served With Garlic Bread"
+                },
+                {
+                    "name": "Pasta Alla-Pesto",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "299",
+                    "description": "Penne With Creamy Basil Pesto Sauce And Herbed Sauteed Veggies Or Chicken Served With Garlic Bread"
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "the_joy_of_laziness": [
+                {
+                    "name": "Grilled Cottage Cheese Steak",
+                    "img": "",
+                    "price": "429",
+                    "nonvegPrice": "",
+                    "description": "Seasoned Cottage Cheese, Grilled To Perfection And Served With Tangy BBQ Sauce, Greens, Mashed Potatoes And Garlic Bread"
+                },
+                {
+                    "name": "Grilled Chicken Breast Steak(Black Pepper/BBQ/Peri-Peri)",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "469",
+                    "description": "Seasoned Chicken Breast With Green, Mashed Potatoes And Garlic Bread"
+                },
+                {
+                    "name": "Three Pepper Stuffed Chicken",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "469",
+                    "description": "Chicken Stuffed With Three Peppers, Grilled To Perfection Servd With Creamy Mushroom-Garlic Sauce, Mashed Potatoes, Greens And Garlic Bread"
+                },
+                {
+                    "name": "Grilled Lemon Butter Fish Steak",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "499",
+                    "description": "Seasoned Fish Grilled TO Perfection, Served With Lemon Butter Sauce, Green, Mashed Potatoes And Garlic Bread"
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "dragon's_own": [
+                {
+                    "name": "Spicy Chiken Wings",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "299",
+                    "description": "Our In-House Special Chicken Wings Tossed In Sauce Of Your Choice-Simple Fried,Mild Spicy, Buffalo Sauce"
+                },
+                {
+                    "name": "Bang Bang Chicken 65",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "329",
+                    "description": "Marinated In Host Of Spices And Tempered With Red Chilies And Curry Leaves And Mustard Seeds"
+                },
+                {
+                    "name": "Spicy Basil Chicken",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "329",
+                    "description": "Chicken Chunks Pan Spread In Wok With Spicy Chilli Paste, Fresh Basil And Herbs"
+                },
+                {
+                    "name": "Honey BBQ Wings",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "299",
+                    "description": "Chicken Wings Marinated In Our Special BBQ Sauce And Seared In Wok With Honey And Sesame Seeds"
+                },
+                {
+                    "name": "Manchurian",
+                    "img": "",
+                    "price": "299",
+                    "nonvegPrice": "329",
+                    "description": "Oriental Style Chinese Balls served in Tangy Manchurian Gravy"
+                },
+                {
+                    "name": "Mushroom Chili Pepper",
+                    "img": "",
+                    "price": "289",
+                    "nonvegPrice": "",
+                    "description": "Crispy Mushroom Tossed With Spicy Schezuwan Sauce Along With Onion And Bell Peppers"
+                },
+                {
+                    "name": "Silvi Monster Lollypops",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "349",
+                    "description": "Crispy Fried Chicken Drumsticks Tossed In Our Schezuwan Sauce Along With Onion Bell Peppers"
+                },
+                {
+                    "name": "Wok & Toss Chili Paneer",
+                    "img": "",
+                    "price": "299",
+                    "nonvegPrice": "",
+                    "description": "Crispy, Juicy Paneer Cubes Tossed With Spicy Schezuwan"
+                },
+                {
+                    "name": "Chili Chicken",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "299",
+                    "description": ""
+                },
+                {
+                    "name": "Lemon Chicken",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "299",
+                    "description": ""
+                },
+                {
+                    "name": "Mongolian Chicken",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "329",
+                    "description": ""
+                },
+                {
+                    "name": "Hakka Noodles",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "249",
+                    "description": ""
+                },{
+                    "name": "Chili Garlic Noodles",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "299",
+                    "description": ""
+                },
+                {
+                    "name": "Fried Rice",
+                    "img": "",
+                    "price": "279",
+                    "nonvegPrice": "299",
+                    "description": ""
+                },
+                {
+                    "name": "Pan Fried Noodles",
+                    "img": "",
+                    "price": "249",
+                    "nonvegPrice": "279",
+                    "description": ""
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "ready_to_drink": [
+                {
+                    "name": "Aerated Drink With Lime",
+                    "img": "",
+                    "price": "79",
+                    "nonvegPrice": "",
+                    "description": "Coke,Sprite,Fanta"
+                },
+                {
+                    "name": "Energy Drink",
+                    "img": "",
+                    "price": "109",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Fresh Lime Soda",
+                    "img": "",
+                    "price": "129",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Bottle Water",
+                    "img": "",
+                    "price": "M.R.P.",
+                    "nonvegPrice": "",
+                    "description": ""
+                }
+                
+            ],
+            "icon": ""
+        },
+        {
+            "dream_of_summer": [
+                {
+                    "name": "Ice Tea",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Lemon-Mint/Peach-Honey/Ginger-Cinnamon/Strawberry"
+                },
+                {
+                    "name": "Flavours Of Paradise",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Kacha-Pakka Aam/Watermelon-Strawberry/Anar-Apple/Cucumber-Mint/Kiwi-Zink"
+                },
+                {
+                    "name": "Mint Mirchi",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "No Hangover Mojito",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Blend Of Fresh Mint And Lemon"
+                },
+                {
+                    "name": "Fusin Mojito",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Strawberry/WaterMelon/Mandarin/Cola/Ginger"
+                },
+                {
+                    "name": "Italian Smooch",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Raspberry-Peach/Blueberry-Strawberry"
+                },
+                {
+                    "name": "Santra-Tantra",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Orange-Pulp-Juice With Dry Ginger Flavour & Fennel Seeds"
+                },
+                {
+                    "name": "Anar Nimbu Shikanji",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Refreshing Shikanji With Fresh Muddle Pomegranate"
+                },
+                {
+                    "name": "Bloody Mary",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Tarbooza",
+                    "img": "",
+                    "price": "249",
+                    "nonvegPrice": "",
+                    "description": "Fresh Watermelon Juice With Mint Spring & Lime - Seasonal"
+                },
+                {
+                    "name": "Peru Payala",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Guava Juice With A Twist Of Chill, Lemon & Masala"
+                },
+                {
+                    "name": "Pina Colada",
+                    "img": "",
+                    "price": "249",
+                    "nonvegPrice": "",
+                    "description": ""
+                },
+                {
+                    "name": "Orange Pineapple Velvet",
+                    "img": "",
+                    "price": "249",
+                    "nonvegPrice": "",
+                    "description": ""
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "my_sweet_tooth": [
+                {
+                    "name": "Gudd Ka Parantha",
+                    "img": "",
+                    "price": "229",
+                    "nonvegPrice": "",
+                    "description": "Seasoned Jaggery Stuffed In Indian Pie & Served With Ice Cream"
+                },
+                {
+                    "name": "Mix Fruit Sundae",
+                    "img": "",
+                    "price": "249",
+                    "nonvegPrice": "",
+                    "description": "Scoops of Vanilla and strawberry Ice Cream Topped with Mix Fruit Mocktail, Fresh Fruit, Berry Syrup And Cherry On Top"
+                },
+                {
+                    "name": "Brownie Fudge",
+                    "img": "",
+                    "price": "219",
+                    "nonvegPrice": "",
+                    "description": "Dark Chocolate Brownie Served With Scoop Of Vanilla Ice Cream And Carmel Fudge"
+                },
+                {
+                    "name": "Seasonal Dressert",
+                    "img": "",
+                    "price": "",
+                    "nonvegPrice": "249",
+                    "description": ""
+                },
+                {
+                    "name": "Scoops Of Ice-Cream",
+                    "img": "",
+                    "price": "99",
+                    "nonvegPrice": "",
+                    "description": "(According To Availability)"
+                }
+                
+            ],
+            "icon": ""
+        }
+    ]
+}

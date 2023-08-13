@@ -1,0 +1,132 @@
+@import'../../../assets/css/variable.scss';
+.books {
+    padding: 70px 0;
+    @media(max-width:991px){
+        padding: 120px 0 70px;
+    }
+    .bookb {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        @media(max-width:991px){
+            flex-direction: column;
+        }
+        .bookleft {
+            width: 52%;
+            @media(max-width:991px){
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            figure {
+                width: 100%;
+                border-radius: 4px;
+                height: 290px;
+                overflow: hidden;
+                @media(max-width:767px){
+                    height: 230px;
+                }
+                img{
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .bookright {
+            width: 45%;
+            @media(max-width:991px){
+                width: 100%;
+            }
+            h3 {
+                color: #000;
+                font-size: 48px;
+                margin-bottom: 20px;
+                font-weight: 500;
+                font-family: Brandon_bld;
+                @media(max-width:1366px){
+                    font-size: 38px;
+                    margin-bottom: 10px;
+                }
+                @media(max-width:767px){
+                    font-size: 32px;
+                }
+            }
+            p {
+                color: rgba(0,0,0,0.59);
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+    .cbook {
+        padding-top: 70px;
+        .sub-head{
+            h4{
+                font-family: 'rethaster';
+                color: $theme-clr;
+                font-size: 32px;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+            p{
+                color: #000000;
+                font-size: 21px;
+                text-align: center;
+                font-weight: normal;
+                @media(max-width:767px){
+                    font-size: 19px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .subsec{
+            h5{
+                color: $theme-clr;
+                font-size: 28px;
+                padding: 15px 0 28px;
+                position: relative;
+                left:30px;
+                @media(max-width:767px){
+                    font-size: 25px;
+                    left:0px;
+                }
+            }
+            .fbox {
+                height: 332px;
+                width: 100%;
+                border-radius: 4px;
+                background-color: #FFFFFF;
+                box-shadow: 0 4px 12px 0 rgba(0,0,0,0.13);
+                margin-bottom: 10px;
+                overflow: hidden;
+                @media(max-width:1024px){
+                    height: 315px;
+                }
+               figure {
+                    height: 245px;
+                    border-radius: 4px 4px 0 0;
+                    @media(max-width:1024px){
+                        height: 220px;
+                    }
+                   img {
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .slide-data{
+                    padding: 15px;
+                    h5{
+                        color: #000;
+                        font-size: 20px;
+                        padding: 0 0 9px;
+                        left:0px;
+                    }
+                    h6{
+                        opacity: 0.42;
+                        color: #110c0c;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
